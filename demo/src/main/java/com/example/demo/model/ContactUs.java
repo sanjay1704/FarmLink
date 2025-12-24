@@ -14,7 +14,7 @@ public class ContactUs {
     private String message;
 
     // Constructors
-    public ContactUs() {}
+    // public ContactUs() {}
 
     public ContactUs(String name, String email, String phone, String subject, String message) {
         this.name = name;
