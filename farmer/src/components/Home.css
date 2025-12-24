@@ -1,0 +1,85 @@
+/* src/components/Header.css */
+.appbar-container {  /* Renamed from .header */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: white;
+  max-height: 70px;
+  padding: 10px 20px;
+}
+
+.site-logo {  /* Renamed from .logo */
+  font-size: 24px;
+}
+
+.navigation-links ul {  /* Renamed from .nav-links */
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.navigation-links li {
+  margin-left: 20px;
+}
+
+.navigation-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.navigation-links a:hover {
+  text-decoration: underline;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-image: url('https://your-background-image-url.com'); /* Replace with your background image URL */
+  background-size: cover;
+  background-position: center;
+}
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+}
+
+.login-form {
+  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.login-form h1 {
+  margin-bottom: 20px;
+  color: black; /* Font color */
+}
+
+.login-form input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.login-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: blue; /* Button color */
+  color: white; /* Button text color */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login-form button:hover {
+  background-color: darkblue; /* Darker blue on hover */
+}
+
